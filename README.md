@@ -58,24 +58,19 @@ To connect your database to your server, we advice you to use [Gorm](https://gor
         - Get the data from the request's parameters (username and password)
         - Check if the user is in the database
         - Print welcome "username"
-
----
-## __STEP 5__ : **_Logout_**
-    The logout is pretty simple, you just have to redirect the user to the home page.
-
 ---
 
-## __STEP 6__ : **_Make a route to print todos__**
+## __STEP 5__ : **_Make a route to print todos__**
     make a route "/todos" who will return the table todos as JSON data.
 
-## __STEP 7__ : **_Add a todo_**
+## __STEP 6__ : **_Add a todo_**
     Create a new route ("/todo/create-todo") to create a todo. In this route, you have to add the todo in the database (table todos)
 
 ---
 
-## __STEP 8__ : **_Change the status of a todo_**
+## __STEP 7__ : **_Change the status of a todo_**
     Create a new route("/todo/achieve/:id) to change the status of a todo.
 
 ---
-## __STEP 9__ : **_Delete a todo_**
+## __STEP 8__ : **_Delete a todo_**
     Create a new route("/todo/delete/:id) to delete a todo
