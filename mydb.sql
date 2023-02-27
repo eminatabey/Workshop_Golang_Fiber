@@ -16,13 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `Todos`
+-- Table structure for table `todos`
 --
 
-DROP TABLE IF EXISTS `Todos`;
+DROP TABLE IF EXISTS `todos`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `Todos` (
+CREATE TABLE `todos` (
   `id` int NOT NULL AUTO_INCREMENT COMMENT 'Primary Key',
   `name` varchar(255) DEFAULT NULL,
   `description` text,
@@ -32,22 +32,22 @@ CREATE TABLE `Todos` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `Todos`
+-- Dumping data for table `todos`
 --
 
-LOCK TABLES `Todos` WRITE;
-/*!40000 ALTER TABLE `Todos` DISABLE KEYS */;
-/*!40000 ALTER TABLE `Todos` ENABLE KEYS */;
+LOCK TABLES `todos` WRITE;
+/*!40000 ALTER TABLE `todos` DISABLE KEYS */;
+/*!40000 ALTER TABLE `todos` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `Users`
+-- Table structure for table `users`
 --
 
-DROP TABLE IF EXISTS `Users`;
+DROP TABLE IF EXISTS `users`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `Users` (
+CREATE TABLE `users` (
   `id` int NOT NULL AUTO_INCREMENT COMMENT 'Primary Key',
   `username` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
@@ -56,12 +56,12 @@ CREATE TABLE `Users` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `Users`
+-- Dumping data for table `users`
 --
 
-LOCK TABLES `Users` WRITE;
-/*!40000 ALTER TABLE `Users` DISABLE KEYS */;
-/*!40000 ALTER TABLE `Users` ENABLE KEYS */;
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
